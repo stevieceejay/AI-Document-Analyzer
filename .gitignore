@@ -1,0 +1,20 @@
+# ---- Secrets: NEVER commit these ----
+.env
+.env.*
+*.env
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+*.key
+*.pem
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- Local output (may contain private document content) ----
+analysis.json
+result.json
+.DS_Store
